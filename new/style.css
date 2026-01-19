@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #1a0b2e;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+.manu{
+    display: none;
+}
+.list{
+  display: flex;
+  gap: 32px;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10000px;
+  background: var(
+    --Linear,
+    linear-gradient(
+      47.64deg,
+      rgba(247, 233, 63, 1),
+      rgba(251, 9, 180, 1),
+      rgba(145, 0, 248, 1)
+    )
+  );
+  border: #1a0b2e;
+  color: #ffffff;
+  padding: 12px 16px;
+}
+/* banner part css */
+.section {
+  /* max-width: 1600px; */
+  height: 760px;
+  background-image: url(../img/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  text-align: center;
+  padding-top: 500px;
+}
+.banner h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+.banner p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.banner div {
+  margin-top: 24px;
+}
+
+.btn-2 {
+  gap: 5px;
+  padding: 12px 20px;
+  border-radius: 1000px;
+  background-color: #1a0b2e;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+}
+/* banner part css */
+/* podcuat  part css */
+.banner-2 {
+  text-align: center;
+}
+.banner-2 h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.banner-2 p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.bar {
+  width: 5px;
+  height: 4px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+.count {
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  padding-bottom: 100px;
+}
+.count h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #00ff88;
+}
+.count p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* podcuat  part css */
+/* resourse part css */
+.resourse {
+  margin: auto;
+  background-color: #230e3d;
+
+}
+.TechWave {
+  text-align: center;
+  padding-top: 80px;
+  
+}
+.TechWave h2 {
+ font-size: 3rem;
+ font-weight: 700;
+ color: #ffffff;
+
+  
+}
+.card{
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 273px);
+  
+}
+.card-1{
+grid-column: span 1;
+grid-row: span 2;
+border-radius: 40px;
+padding: 40px;
+border: 1px solid #351165;
+background-color: #35116563;
+align-content: center;
+}
+
+.card-2{
+grid-column: span 2;
+grid-row: span 1;
+border-radius: 40px;
+padding: 40px;
+border: 1px solid #351165;
+background-color: #35116563;
+ align-content: center;
+}
+.card-3{
+grid-column: span 1;
+grid-row: span 1;
+border-radius: 40px;
+padding: 40px;
+border: 1px solid #351165;
+background-color: #35116569;
+ align-content: center;
+}
+.card h5{
+font-size: 1.5rem;
+font-weight: 700;
+color: #ffffff;
+margin-top: 16px;
+}
+.card p{
+font-size: 1rem;
+font-weight: 500;
+color: #ffffff;
+margin-top: 16px;
+}
+
+/* resourse part css */
+/* featured card css */
+.featureds{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.cards-tolk{
+position: relative;
+border: 1px solid #1a0b2e;
+border-radius: 24px;
+background-color: #250d4460;
+}
+.cards-tolk img{
+ width: 380px;
+ height: 214px;
+       
+}
+.cards-tolk svg{
+       position: absolute;
+       top: 110px;
+       left: 190px;
+    transform: translate(-50% ,-50%);
+       width: 60px;
+       height: 60px;
+
+}
+.card-content{
+    width: 380px;
+    height: 226px;
+    padding: 24px;
+}
+.card-content h4{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: #ffffff;
+  
+}
+.card-content p{
+ font-size: 1rem;
+ font-weight: 500;
+ color: #ffffff;
+ margin-top:12px;
+}
+.card-content span{
+ display: inline-block;
+ font-size: 1rem;
+ font-weight: 600;
+ color: #00FF88;
+ margin-top:12px;
+}
+
+/* featured card css */
+
+/* card end part css */
+.cards-content{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.end{
+  background-color: #35116563;
+    border-radius: 40px;
+    /* height: 280px; */
+    padding: 40px;
+    margin-top: 50px;
+    
+}
+.card-end{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid #ffffff;
+}
+.card-end h4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.card-end p{
+   font-size: 1rem;
+   font-weight: 500;
+   color: #ffffff;
+   margin-top: 16px;
+}
+.svg svg{
+    margin-top: 16px;
+   
+ 
+}
+/* card end part css */
+
+/* footer part css */
+#footer{
+    height: 412px;
+    background-image: url(../img/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+}
+.footers{
+    text-align: center;
+    align-items: center;
+    padding-top: 120px;
+ 
+}
+.footers img{
+     width: 410px;
+     height: 60px;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 32px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+ 
+ 
+ 
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+   text-align: center;
+     font-size: 1rem;
+    font-weight: 500;
+     
+
+}
+.footer-end{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FAFAFA;
+    margin-top: 32px;
+}
+/* footer part css */
+@media (max-width: 576px) {
+    .count {
+grid-template-columns: repeat(2,1fr);
+ text-align: center;
+}
+.manu{
+    display: block;
+    color: #ffffff;
+
+}
+.list{
+    display: none;
+}
+.btn{
+    display: none;
+}
+.card{
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+ 
+     
+}
+.TechWave h2 ,.banner-2 h2,.featureds,.cards-content{
+ font-size: 2rem;
+}
+.banner-2{
+    width: 400px;
+    height: 207px;
+    margin: 0 auto;
+}
+.cards,.icon,.card-end,.item{
+    flex-direction: column;
+
+}
+.end{
+   align-items: center;
+   margin: 0 auto;
+ 
+}
+.card-content{
+    padding: 40px 20px;
+    text-align: start;
+   
+}
+.card-content h4{
+    font-size: 1.25rem;
+}
+.cards-tolk{
+    width: 400px;
+    height: 393px;
+    margin: 0 auto;
+}
+.container{
+    margin: auto;
+   
+
+}
+.end{
+    width: 400px;
+    /* height: 483px; */
+}
+#footer{
+    width: 100%;
+    height: auto;
+   
+}
+.icon{
+    margin-left: auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+}
