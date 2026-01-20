@@ -407,6 +407,7 @@ grid-template-columns: repeat(2,1fr);
    
 
 }
+
 .end{
     width: 400px;
     /* height: 483px; */
@@ -416,6 +417,7 @@ grid-template-columns: repeat(2,1fr);
     height: auto;
    
 }
+
 .icon{
     margin-left: auto;
     width: 100%;
