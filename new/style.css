@@ -374,8 +374,31 @@ grid-template-columns: repeat(2,1fr);
     color: #ffffff;
 
 }
-.list{
+
+#menu{
+  position: relative;
+}
+/* .list{
     display: none;
+} */
+
+#navlinks{
+  position: absolute;
+  top:70px;
+  right: 0px;
+  background-color: #06522e;
+  color: #fff;
+  width: 100%;
+  flex-direction: column;
+  padding: 5px;
+  display: none;
+}
+#navlinks.active{
+display: flex;
+}
+
+#navlinks li:hover a{
+   background-color: #1a0b2e;
 }
 .btn{
     display: none;
