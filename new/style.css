@@ -397,6 +397,7 @@ grid-template-columns: repeat(2,1fr);
 display: flex;
 }
 
+
 #navlinks li:hover a{
    background-color: #1a0b2e;
 }
